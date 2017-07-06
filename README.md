@@ -3,7 +3,17 @@
 This repository contains hands-on labs to familiarize yourself and adopt Visual Studio for Mac workloads and features. The repository is divided in the following sections:
 
 * <a href="IoT">Internet of Things</a>
+* <a href="Mobile">Mobile</a>
 * <a href="Unity">Unity</a>
+* <a href="Web">Web</a>
+
+## Resources
+
+* [Visual Studio for Mac documentation](https://docs.microsoft.com/visualstudio/mac/)
+* [.NET Core documentation](https://docs.microsoft.com/dotnet/core/)
+* [ASP.NET Core documentation](https://docs.microsoft.com/aspnet/#core)
+* [Xamarin University](https://www.xamarin.com/university)
+* [Learn with Unity](https://unity3d.com/learn)
 
 ## Feedback and contributions
 

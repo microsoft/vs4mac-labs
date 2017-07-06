@@ -82,9 +82,9 @@ This lab is intended for developers who are familiar with C# and Raspberry Pi.
 
 1. Launch **Visual Studio for Mac**.
 
-1. Select **File | New Solution**.
+1. Select **File > New Solution**.
 
-1. Select the **IoT | App** category and the **Xamarin IoT Application** template. Click **Next**.
+1. Select the **IoT > App** category and the **Xamarin IoT Application** template. Click **Next**.
 
     ![](https://user-images.githubusercontent.com/3944468/27368630-9daf4bac-5608-11e7-907f-3da8028e3b0f.png)
 
@@ -92,7 +92,7 @@ This lab is intended for developers who are familiar with C# and Raspberry Pi.
 
     ![](https://user-images.githubusercontent.com/3944468/27368625-9d996c9c-5608-11e7-938b-9535329c7115.png)
 
-1. Select **Tools | Device Manager**. This window provides a way to select the target device to deploy to.
+1. Select **Tools > Device Manager**. This window provides a way to select the target device to deploy to.
 
 1. If the device you configured is there, select it and click **Connect**. Otherwise use the **Add Device** option to select it manually.
 
@@ -145,17 +145,17 @@ This lab is intended for developers who are familiar with C# and Raspberry Pi.
 
 1. Open a browser window to [https://github.com/netonjm/iotsharp-components](https://github.com/netonjm/iotsharp-components). This repo includes the **IoTSharp.Components**, an open source library that enables developers to interact easily with components connected to the GPIO of a device.
 
-1. Select **Clone or download | Download ZIP**. Download to a location that's easy to get back to.
+1. Select **Clone or download > Download ZIP**. Download to a location that's easy to get back to.
 
     ![](https://user-images.githubusercontent.com/3944468/27368642-9ddb7bfa-5608-11e7-91c8-379d20eb8366.png)
 
-1. In **Visual Studio for Mac**, select **File | Open**. From the downloaded **iotsharp-components-master** folder, open **IotSharp.Components.sln**.
+1. In **Visual Studio for Mac**, select **File > Open**. From the downloaded **iotsharp-components-master** folder, open **IotSharp.Components.sln**.
 
 1. Expand the **IoTSharp.Components.Core** project and open the **IIoTButton** interface. This interface is implemented by any device-specific implementation of a button to be used within an app.
 
     ![](https://user-images.githubusercontent.com/3944468/27368641-9dda49ec-5608-11e7-898e-848700b7bd7f.png)
 
-1. The interface includes the typical events you'd expect to see for a button, such as a **Clicked** handler. It also derives from **IIotComponent**, which you can easily navigate to by right-clicking its reference and selecting **IIotComponent | Go to Declaration**.
+1. The interface includes the typical events you'd expect to see for a button, such as a **Clicked** handler. It also derives from **IIotComponent**, which you can easily navigate to by right-clicking its reference and selecting **IIotComponent > Go to Declaration**.
 
     ![](https://user-images.githubusercontent.com/3944468/27368645-9de55f12-5608-11e7-9044-ed2e5d26f68e.png)
 
@@ -173,9 +173,9 @@ This lab is intended for developers who are familiar with C# and Raspberry Pi.
 
     ![](https://user-images.githubusercontent.com/3944468/27368652-9e03b0f2-5608-11e7-9ffb-f1357c8ec5c6.png)
 
-1. Select **Build |Build All** to build the solution so that we can return to the original project and reference the produced assembly.
+1. Select **Build > Build All** to build the solution so that we can return to the original project and reference the produced assembly.
 
-1. Select **File | Recent Solutions | IoTLab** to reopen that project.
+1. Select **File > Recent Solutions > IoTLab** to reopen that project.
 
 1. Right-click the **Dependencies** node and select **Edit References**.
 
@@ -207,7 +207,7 @@ This lab is intended for developers who are familiar with C# and Raspberry Pi.
         Thread.Sleep(150);
     }
     ```
-1. You may notice that there are some red squiggles under certain parts of the code that indicate an error. For example, although the IoT assembly is referenced, there's an error when trying to use its components. Visual Studio for Mac can often help you quickly and easily resolve these problems via **Quick Fix** solutions. Right-click the first **IoTButton** reference and select **Quick Fix | using IoTSharp.Components;** to add a using statement to the file. This will resolve errors referencing classes from that namespace.
+1. You may notice that there are some red squiggles under certain parts of the code that indicate an error. For example, although the IoT assembly is referenced, there's an error when trying to use its components. Visual Studio for Mac can often help you quickly and easily resolve these problems via **Quick Fix** solutions. Right-click the first **IoTButton** reference and select **Quick Fix > using IoTSharp.Components;** to add a using statement to the file. This will resolve errors referencing classes from that namespace.
 
     ![](https://user-images.githubusercontent.com/3944468/27368651-9dfc283c-5608-11e7-953f-258e040e9647.png)
 

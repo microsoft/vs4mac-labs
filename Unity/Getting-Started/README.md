@@ -78,7 +78,7 @@ This lab is intended for developers who are familiar with C#, although deep expe
 
     ![](https://user-images.githubusercontent.com/3944468/27367721-7441d000-5603-11e7-8563-ceb06418eaa8.png)
 
-1. The **GameObject** is central to development in Unity as almost everything derives from that type, including models, lights, particle systems, and so on. Add a new **Cube** object to the scene via the **GameObject | 3D Object | Cube** menu.
+1. The **GameObject** is central to development in Unity as almost everything derives from that type, including models, lights, particle systems, and so on. Add a new **Cube** object to the scene via the **GameObject > 3D Object > Cube** menu.
 
     ![](https://user-images.githubusercontent.com/3944468/27367722-7444cefe-5603-11e7-8648-f4310ece3356.png)
 
@@ -106,7 +106,7 @@ This lab is intended for developers who are familiar with C#, although deep expe
 
     ![](https://user-images.githubusercontent.com/3944468/27367725-7459e780-5603-11e7-8010-7e67be8aeaa8.png)
 
-1. Now you can add some code to drive the enemy logic so that it pursues the player. Right-click the **Assets** folder in the **Project** pad and select **Create | C# Script**.
+1. Now you can add some code to drive the enemy logic so that it pursues the player. Right-click the **Assets** folder in the **Project** pad and select **Create > C# Script**.
 
     ![](https://user-images.githubusercontent.com/3944468/27367726-7461cd6a-5603-11e7-89d0-145972b0ab76.png)
 
@@ -118,12 +118,12 @@ This lab is intended for developers who are familiar with C#, although deep expe
 
     ![](https://user-images.githubusercontent.com/3944468/27367731-746e85dc-5603-11e7-8afc-5b1896091eec.png)
 
-1. Select **File | Save Scenes** to save the current scene. Name it **"MyScene"**.
+1. Select **File > Save Scenes** to save the current scene. Name it **"MyScene"**.
 
 <a name="Ex1Task2"></a>
 ### Task 2: Working with Visual Studio for Mac Tools for Unity ###
 
-1. The best way to edit C# code is to use Visual Studio for Mac. You can configure Unity to use Visual Studio for Mac as its default handler. Select **Unity | Preferences**.
+1. The best way to edit C# code is to use Visual Studio for Mac. You can configure Unity to use Visual Studio for Mac as its default handler. Select **Unity > Preferences**.
 
 1. Select the **External Tools** tab. From the **External Script Editor** dropdown, select **Browse** and select **Applications/Visual Studio.app**. Alternatively, if there's already a **Visual Studio** option, just select that.
 
@@ -255,7 +255,7 @@ This lab is intended for developers who are familiar with C#, although deep expe
 
     ![](https://user-images.githubusercontent.com/3944468/27367706-74052ab0-5603-11e7-8ab1-63ec70359cf7.png)
 
-1. Visual Studio for Mac also provides some helpers to quickly create Unity behavior classes. From **Solution Explorer**, right-click **Assets** and select **Add | New MonoBehaviour**.
+1. Visual Studio for Mac also provides some helpers to quickly create Unity behavior classes. From **Solution Explorer**, right-click **Assets** and select **Add > New MonoBehaviour**.
 
     ![](https://user-images.githubusercontent.com/3944468/27367707-7407c676-5603-11e7-8481-868329bf1dc4.png)
 
@@ -267,7 +267,7 @@ This lab is intended for developers who are familiar with C#, although deep expe
 
     ![](https://user-images.githubusercontent.com/3944468/27367710-74155340-5603-11e7-960b-ff9baa4fe90f.png)
 
-1. Visual Studio for Mac also enables you to easily define new shaders. From **Solution Explorer**, right-click **Assets** and select **Add | New Shader**.
+1. Visual Studio for Mac also enables you to easily define new shaders. From **Solution Explorer**, right-click **Assets** and select **Add > New Shader**.
 
     ![](https://user-images.githubusercontent.com/3944468/27367711-7417bebe-5603-11e7-8e8c-7dabdd62ba9b.png)
 
