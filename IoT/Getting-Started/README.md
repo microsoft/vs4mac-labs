@@ -133,7 +133,7 @@ This lab is intended for developers who are familiar with C# and Raspberry Pi.
     ![](https://user-images.githubusercontent.com/3944468/27368639-9dcccbfa-5608-11e7-987e-813a8ef64443.png)
 
 <a name="Ex1Task3"></a>
-### Task 3: Extending the IoT app with Xamarin.IoT.Components ###
+### Task 3: Extending the IoT app with Xamarin.IoTSharp.Components ###
 
 1. There are quite a few ways to integrate with the Raspberry Pi. One of the easiest ways is to add a NuGet package that contains an integration library. From **Solution Explorer**, right-click the **Dependencies** node and select **Add Packages**.
 

@@ -17,7 +17,7 @@ This repository contains hands-on labs to familiarize yourself and adopt Visual 
 
 ## Feedback and contributions
 
-To provide feedback or contribute, please use <a href="issues">GitHub issues</a>.
+To provide feedback or contribute, please use <a href="https://github.com/Microsoft/vs4mac-labs/issues">GitHub issues</a>.
 
 ## Code of conduct
 
