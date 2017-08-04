@@ -17,7 +17,8 @@ The Xamarin IoT extension enables developers to create native Linux IoT applicat
 ## Prerequisites ##
 
 - Visual Studio for Mac with the IoT development extension installed ([https://www.visualstudio.com/vs/visual-studio-mac](https://www.visualstudio.com/vs/visual-studio-mac))
- - Note that this requires [switching to the Alpha channel](https://docs.microsoft.com/en-us/visualstudio/mac/update#changing-the-updater-channel) in Visual Studio for Mac, as the Xamarin IoT extension is currently available as a preview
+ - Note that this requires [switching to the Alpha channel](https://docs.microsoft.com/en-us/visualstudio/mac/update#changing-the-updater-channel) in Visual Studio for Mac, as the Xamarin IoT extension is currently available as a preview.
+ - To install the IoT development extension, click on Extensions in the **top menu** in the IDE to find the **Internet of Things (IoT) development (Preview)** extension under the **IDE extensions** node on the **Gallery** tab.
 - A Raspberry Pi 3 device with a push button wired up, configured with Raspbian on the same network as your Mac (see [https://pinout.xyz](https://pinout.xyz/) for guidance on attaching a button)
 
 <a name="Intended Audience"></a>
