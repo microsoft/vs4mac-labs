@@ -18,7 +18,7 @@ In this lab you will create and explore an ASP.NET Core application with Visual 
 <a name="Prerequisites"></a>
 ## Prerequisites ##
 
-- Visual Studio for Mac
+- Visual Studio for Mac ([https://www.visualstudio.com/vs/visual-studio-mac](https://www.visualstudio.com/vs/visual-studio-mac))
 
 <a name="Intended Audience"></a>
 ## Intended Audience ##

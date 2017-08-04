@@ -17,7 +17,7 @@ Visual Studio for Mac Tools for Unity is a free extension (installed with Visual
 ## Prerequisites ##
 
 - Visual Studio for Mac ([https://www.visualstudio.com/vs/visual-studio-mac](https://www.visualstudio.com/vs/visual-studio-mac))
-- Unity 5.6.1 Personal Edition ([https://store.unity.com](https://store.unity.com/), requires a unity.com account to run)
+- Unity 5.6.1 Personal Edition or higher ([https://store.unity.com](https://store.unity.com/), requires a unity.com account to run)
 
 <a name="Intended Audience"></a>
 ## Intended Audience ##

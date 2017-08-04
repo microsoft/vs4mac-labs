@@ -18,10 +18,11 @@ In this lab you'll use Visual Studio for Mac to create a simple to-do app that m
 <a name="Prerequisites"></a>
 ## Prerequisites ##
 
-- Visual Studio for Mac
+- Visual Studio for Mac ([https://www.visualstudio.com/vs/visual-studio-mac](https://www.visualstudio.com/vs/visual-studio-mac))
 - An Azure account (sign up for free at [https://azure.com/free](https://azure.com/free))
 - If using a physical device, install the Xamarin Live Player from your device's app store
-  - Note that Xamarin Live Player is currently in preview and will require you to [switch to the Alpha updater channel](https://docs.microsoft.com/en-us/visualstudio/mac/update) in Visual Studio for Mac
+  - Note that Xamarin Live Player is currently in preview and will require you to [switch to the Alpha updater channel](https://docs.microsoft.com/en-us/visualstudio/mac/update) in Visual Studio for Mac.
+  - To enable Xamarin Live Player, click on **Preferences** in the **top menu** and find the **Enable Xamarin Live Player** option under the **Projects > Xamarin Live Player (Preview)** node.
 
 <a name="Intended Audience"></a>
 ## Intended Audience ##
