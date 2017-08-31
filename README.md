@@ -2,6 +2,8 @@
 
 This repository contains hands-on labs to familiarize yourself and adopt Visual Studio for Mac workloads and features. The repository is divided in the following sections:
 
+* <a href="Azure-Functions">Azure Functions</a>
+* <a href="Docker">Docker</a>
 * <a href="IoT">Internet of Things</a>
 * <a href="Mobile">Mobile</a>
 * <a href="Unity">Unity</a>
