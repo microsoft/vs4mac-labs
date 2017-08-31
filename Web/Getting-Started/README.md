@@ -79,7 +79,7 @@ This lab is intended for developers who are familiar with C#, although deep expe
 
 1. From **Solution Explorer**, open **Program.cs**. This is the bootstrapper that will run your application.
 
-    ![]https://user-images.githubusercontent.com/3944468/27835473-1a3c7a5a-6090-11e7-9b6e-4e7842af10fc.png)
+    ![](https://user-images.githubusercontent.com/3944468/27835473-1a3c7a5a-6090-11e7-9b6e-4e7842af10fc.png)
 
 1. While there are only two lines of code here, they're pretty substantial. Let's break them down. First, a new **WebHostBuilder** is created. ASP.NET Core apps require a host in which to execute. A host must implement the **IWebHost** interface, which exposes collections of features and services, and a **Start** method. The host is typically created using an instance of a **WebHostBuilder**, which builds and returns a **WebHost** instance. The **WebHost** references the server that will handle requests.
 
