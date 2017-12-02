@@ -6,7 +6,7 @@
 
 Visual Studio for Mac enables you to quickly build modern websites using key technologies, such as ASP.NET Core and Azure SQL Database.
 
-In this lab you will create and publish an ASP.NET Core website to Azure.
+In this lab you will connect an ASP.NET Core website to Azure SQL Database.
 
 <a name="Objectives"></a>
 ## Objectives ##
